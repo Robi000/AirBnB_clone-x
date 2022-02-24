@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+
+"""Module console.py
+The program starts here. Run this script to interact with the program"""
+
 import cmd
 from models.base_model import BaseModel
 from models.user import User
