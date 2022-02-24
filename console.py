@@ -78,12 +78,12 @@ class HBNBCommand(cmd.Cmd):
                 print("** value missing **")
                 return 1
 
-    def do_EOF(self, line):
-        'Quit command to exit the program'
+    def do_quit(self, arg):
+        """Exit the HBNB console:  quit"""
         return True
 
-    def do_quit(self, line):
-        'Quit command to exit the program'
+    def do_EOF(self, arg):
+        """Exit the HBNB console:  EOF"""
         return True
 
     def do_create(self, line):
